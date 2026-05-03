@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int xh, yh, xp, yp;
+    cin >> xh >> yh;
+    cin >> xp >> yp;
+
+    if (xh == xp || yh == yp) {
+        cout << 1;
+    } else {
+        cout << 2;
+    }
+
+    return 0;
+}
